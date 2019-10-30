@@ -217,12 +217,17 @@ footer .glyphicon {
   border: none;
   padding: 15px 25px;
 }
-a:visited{
+a.resume:visited{
+  color: white;
+}
+
+a.social:visited{
   color: #E76F51;
 }
 
 .text{
   padding-top: 8%;
+  font-weight: bold;
 }
 
 .overlay{
