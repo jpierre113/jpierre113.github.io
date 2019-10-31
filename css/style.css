@@ -263,7 +263,7 @@ a.social:visited{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.face{
+img.face{
   height: 300px;
   width: 300px;
 }
