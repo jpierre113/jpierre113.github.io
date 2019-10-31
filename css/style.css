@@ -24,7 +24,7 @@ h4 {
   background-color: #194F92;
   color: #fff;
   padding: 100px 25px;
-  font-family: Montserrat, sans-serif;
+  font-family:'Montserrat', sans-serif;
   background-image: url(https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif);
   height: 550px;
 }
@@ -129,7 +129,7 @@ h4 {
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
@@ -232,7 +232,13 @@ a.social:visited{
 .text{
   padding-top: 8%;
   font-weight: bold;
-  font-family:
+  font-family: 'Lato', sans-serif;
+}
+
+.text p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  letter-spacing: 2px;
 }
 
 .overlay{
@@ -256,6 +262,10 @@ a.social:visited{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.face{
+  height: 300px;
+  width: 300px;
 }
 @keyframes slide {
   0% {
