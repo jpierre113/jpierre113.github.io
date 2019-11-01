@@ -51,7 +51,7 @@
       <h2>About</h2><br>
       <h4>Hello, My name is Janna Pierre and I am a Full-Stack Software Developer in New York City. I graduated from New York City College of Technology (Citytech) with a Bachelor's in Computer Systems.
       I recently attended General Assembly's Software Engineering Immersive program to fine tune my coding skills.<br></h4>
-      <h4> When I'm not coding I enjoy attending conventions and crafting costumes as another fuel for creativity. I enjoy being able to cosplay as a character from any series and being able to break the ice with finding others who also are into the same series.
+      <h4> When I'm not coding, I enjoy attending conventions and crafting costumes as another fuel for creativity. I enjoy being able to cosplay as a character from any series and being able to break the ice with finding others who also are into the same series.
       </h4><br>
       <button class="resume"><a href="https://drive.google.com/file/d/15KxVSUypl890iYFPOH_7Yoh2bZpnRlm8/view?usp=sharing" target="_blank">Download Resume</a></button>
     </div>
@@ -167,7 +167,7 @@
   <div class="row">
     <div class="col-sm-5">
       <p>Contact Me</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> New York, US</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> New York, NY</p>
       <p><a href="mailto:jannapierre@gmail.com" target="_blank"><img src="img/gmail.png" class="socialimg"/></a></p>
       <p> <a href="https://www.linkedin.com/in/janna-pierre/" class="social" target="_blank"><img src="img/linkedin.png" class="socialimg"/></a></p>
       <p> <a href="https://github.com/jpierre113/" class="social" target="_blank"><img src="img/github-sign.png" class="socialimg"/></a></p>
@@ -175,19 +175,54 @@
     </div>
     <div class="col-sm-7">
       <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+
+      <form target="_blank" action="https://docs.google.com/forms/d/e/1FAIpQLSeZvggZzeoiJ4-TywRDsZGkOtKL0a1W2z4UAVwR5lIib37ntQ/formResponse"
+      target="_self"
+      id="bootstrapForm"
+      method="POST">
+    <fieldset>
+
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "1633920210" -->
+    <fieldset>
+        <legend for="1633920210">Name</legend>
+        <div class="form-group">
+            <input id="2005620554" type="text" name="entry.2005620554" class="form-control" required>
         </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "227649005" -->
+    <fieldset>
+        <legend for="227649005">Email</legend>
+        <div class="form-group">
+            <input id="1045781291" type="text" name="entry.1045781291" class="form-control" required>
         </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+    </fieldset>
+
+
+    <!-- Field type: "paragraph" id: "1846923513" -->
+    <fieldset>
+        <legend for="1846923513">Comments</legend>
+        <div class="form-group">
+            <textarea id="839337160" name="entry.839337160" class="form-control" required></textarea>
         </div>
-      </div>
+    </fieldset>
+
+    <input type="hidden" name="fvv" value="1">
+    <input type="hidden" name="fbzx" value="-8905905864316366036">
+    <!--
+        CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+        This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+        Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+        We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+    -->
+    <input type="hidden" name="pageHistory" value="0">
+
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>
     </div>
   </div>
 </div>
