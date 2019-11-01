@@ -214,18 +214,11 @@ footer .glyphicon {
 .resume{
   background-color: #194F92;
   color: white;
-  /* border: none; */
+  border: none;
   padding: 15px 25px;
 
 }
-.resume:hover{
-  background-color: #ffffff;
-  border: 3px solid #194F92;
-}
 
-.resume:hover a{
-  color:black;
-}
 .resume a{
   color: white;
 }
