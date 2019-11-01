@@ -214,9 +214,17 @@ footer .glyphicon {
 .resume{
   background-color: #194F92;
   color: white;
-  border: none;
+  /* border: none; */
   padding: 15px 25px;
 
+}
+.resume:hover{
+  background-color: #ffffff;
+  border: 3px solid #194F92;
+}
+
+.resume:hover a{
+  color:black;
 }
 .resume a{
   color: white;
@@ -265,7 +273,10 @@ a.social:visited{
 }
 img.face{
   height: 300px;
-  width: 300px;
+}
+.socialimg{
+  height: 50px;
+  width:50px;
 }
 @keyframes slide {
   0% {
