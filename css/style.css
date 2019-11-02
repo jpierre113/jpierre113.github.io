@@ -131,6 +131,11 @@ h4 {
   border-radius: 0;
   font-family: 'Montserrat', sans-serif;
 }
+.navName{
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
 .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
 }
@@ -167,6 +172,7 @@ footer .glyphicon {
      -moz-animation: bounce .3s infinite; //firefox
      -o-animation: bounce .3s infinite; //opera
 }
+
 
 @-webkit-keyframes bounce {
     0%,
