@@ -26,7 +26,7 @@ h4 {
   padding: 100px 25px;
   font-family:'Montserrat', sans-serif;
   background-image: url(https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif);
-  height: 550px;
+  height: 650px;
 }
 
 .container-fluid {
@@ -131,6 +131,11 @@ h4 {
   border-radius: 0;
   font-family: 'Montserrat', sans-serif;
 }
+.navName{
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
 .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
 }
@@ -167,6 +172,7 @@ footer .glyphicon {
      -moz-animation: bounce .3s infinite; //firefox
      -o-animation: bounce .3s infinite; //opera
 }
+
 
 @-webkit-keyframes bounce {
     0%,
@@ -214,18 +220,11 @@ footer .glyphicon {
 .resume{
   background-color: #194F92;
   color: white;
-  /* border: none; */
+  border: none;
   padding: 15px 25px;
 
 }
-.resume:hover{
-  background-color: #ffffff;
-  border: 3px solid #194F92;
-}
 
-.resume:hover a{
-  color:black;
-}
 .resume a{
   color: white;
 }
@@ -238,7 +237,7 @@ a.social:visited{
 }
 
 .text{
-  padding-top: 8%;
+  padding-top: 12%;
   font-weight: bold;
   font-family: 'Lato', sans-serif;
 }
