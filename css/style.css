@@ -23,9 +23,11 @@ h4 {
 .jumbotron {
   background-color: #194F92;
   color: #fff;
-  padding: 100px 25px;
   font-family:'Montserrat', sans-serif;
-  background-image: url(https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif);
+  background-image: url(http://getdrawings.com/vectors/city-building-vector-28.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position:bottom;
   height: 650px;
 }
 
