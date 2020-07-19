@@ -308,6 +308,10 @@ img.face{
     width: 100%;
     margin-bottom: 35px;
   }
+
+  .navName{
+    padding-left: 10px;
+  }
 }
 @media screen and (max-width: 480px) {
   .logo {
