@@ -278,7 +278,11 @@ img.face{
 .socialimg{
   height: 50px;
   width:50px;
+  padding: 5px;
+  margin-left: 200px;
+  margin-top: 20px;
 }
+
 @keyframes slide {
   0% {
     opacity: 0;
