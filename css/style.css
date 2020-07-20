@@ -280,6 +280,10 @@ img.face{
   width:50px;
   padding: 5px;
 }
+#socialIcons{
+  display: flex;
+  justify-content: center;
+}
 
 @keyframes slide {
   0% {
