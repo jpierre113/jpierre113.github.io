@@ -332,6 +332,11 @@ img.face{
     width: 250px;
     padding-right: 20px;
   }
+
+  #contact{
+    position: absolute;
+    padding-bottom: 120px;
+  }
 }
 @media screen and (max-width: 480px) {
   .logo {
