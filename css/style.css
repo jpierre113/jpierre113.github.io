@@ -284,6 +284,14 @@ img.face{
   display: flex;
   justify-content: center;
 }
+.col-md-7 img{
+  height: 500px;
+  width: 700px;
+}
+
+.tech-stack{
+  padding: 5px;
+}
 
 @keyframes slide {
   0% {
@@ -317,6 +325,12 @@ img.face{
 
   .navName{
     padding-left: 10px;
+  }
+
+  .col-md-7 img{
+    height: 150px;
+    width: 250px;
+    padding-right: 20px;
   }
 }
 @media screen and (max-width: 480px) {
