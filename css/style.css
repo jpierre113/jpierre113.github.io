@@ -293,6 +293,16 @@ img.face{
   padding: 5px;
 }
 
+/* footer {
+  background-color: #194F92;
+  color: white;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 300;
+  position: absolute;
+   
+} */
+
 @keyframes slide {
   0% {
     opacity: 0;
@@ -336,6 +346,10 @@ img.face{
   #contact{
     position: absolute;
     padding-bottom: 120px;
+  }
+
+  #form-group{
+    padding-left: 100px;
   }
 }
 @media screen and (max-width: 480px) {
