@@ -293,15 +293,21 @@ img.face{
   padding: 5px;
 }
 
-/* footer {
-  background-color: #194F92;
-  color: white;
+footer {
+  color: #194F92;
   width: 100%;
   font-size: 14px;
-  font-weight: 300;
   position: absolute;
-   
-} */
+  height: 10px;
+}
+
+#backToTop{
+  text-align: center;
+}
+
+#contact{
+  padding-bottom: 20px;
+}
 
 @keyframes slide {
   0% {
@@ -343,9 +349,9 @@ img.face{
     padding-right: 20px;
   }
 
-  #contact{
+  footer{
     position: absolute;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
   }
 
   #form-group{
