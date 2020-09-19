@@ -469,6 +469,9 @@ section {
 }
 
 @media screen and (max-width: 425px) {
+  .row.skills-content{
+    padding-left: 20%;
+  }
   .box {
     margin: 0 20px;
   }
@@ -476,7 +479,7 @@ section {
 
 @media screen and (max-width: 375px) {
   .row.skills-content{
-    padding-left: 20px;
+    padding-left: 10%;
   }
   .box{
     margin: 0 30px;
