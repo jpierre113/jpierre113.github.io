@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #6E5680
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -353,7 +353,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #6E5680;
   bottom: 0;
   left: calc(50% - 20px);
 }
