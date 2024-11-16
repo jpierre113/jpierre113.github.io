@@ -38,8 +38,8 @@
 
   const form = [...document.getElementsByClassName('php-email-form')][0];
 
-  form.addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
+  form.addEventListener('submit', function(e) {
+    e.preventDefault(); // Prevent default form submission
 
     // Trigger Google Analytics event for form start
     gtag('event', 'form_start', {
