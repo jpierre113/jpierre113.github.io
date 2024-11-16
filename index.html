@@ -36,7 +36,7 @@
 
   gtag('config', 'G-H6RRCPQQX4');
 
-  const form = document.getElementsByClassName('php-email-form');
+  const form = [...document.getElementsByClassName('php-email-form')][0];
 
   form.addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
