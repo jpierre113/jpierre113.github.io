@@ -35,6 +35,28 @@
   gtag('js', new Date());
 
   gtag('config', 'G-H6RRCPQQX4');
+
+  const form = document.getElementsByClassName('php-email-form');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Trigger Google Analytics event for form start
+    gtag('event', 'form_start', {
+      'event_category': 'form',
+      'event_label': 'myForm' // Replace with form identifier
+    });
+
+    // Captures incomplete form to send to google analytics
+  window.onbeforeunload = function(event) {
+    if (formSubmitted === false) { // Check if form has been submitted
+      gtag('event', 'form_abandon', {
+      'event_category': 'form',
+      'event_label': 'myForm'
+    });
+  }
+};
+  });
 </script>
 
 
